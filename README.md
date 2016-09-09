@@ -4,6 +4,12 @@ Simple cross-platform C++ windowing bootstrap with ImGui support.
 
 Mac, Linux and Windows(Visual Studio 2013 and 2015) are supported.
 
+![mac](images/window-mac.png)
+
+![linux](images/window-linux.png)
+
+![windows](images/window-windows.png)
+
 ## Requirements
 
 * OpenGL 2.x
