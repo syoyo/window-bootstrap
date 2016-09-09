@@ -115,8 +115,8 @@ int main(int argc, char** argv) {
 #ifdef USE_OPENGL2
   ci.m_openglVersion = 2;
 #endif
-  ci.m_width = 1024;
-  ci.m_height = 800;
+  ci.m_width = 640;
+  ci.m_height = 480;
   window->createWindow(ci);
 
   window->setWindowTitle("view");

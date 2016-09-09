@@ -2,23 +2,41 @@
 
 Simple cross-platform C++ windowing bootstrap with ImGui support.
 
-Mac, Linux and Windows are supported.
+Mac, Linux and Windows(Visual Studio 2013 and 2015) are supported.
 
 ## Requirements
 
 * OpenGL 2.x
 * premake5(optional. required to build example program)
+* GTK+3(optional. required for nativefiledialog support)
 
 ## Build on Mac and Linux
 
     $ premake5 gmake
     $ make
 
+### Optional build on linux
+
+You can enable nativefiledialog support with `--with-gtk3nfd` premake options(GTK+3 required)
+
+    $ premake5 --with-gtk3nfd gmake
+
 ## Build on Windows
 
-## Use your project.
+    > premake5.exe vs2013
 
-Please simply copy necessary files into your project.
+Or
+
+    > premake5.exe vs2015
+
+## How to use codes in your project.
+
+Please simply copy following directories/files into your project.
+
+* nativefiledialog/
+* OpenGLWindow/
+* ThirdPartyLibs/
+* imgui codes
 
 ## License
 
