@@ -13,6 +13,8 @@ Mac, Linux and Windows(Visual Studio 2013 and 2015) are supported.
 ## Requirements
 
 * OpenGL 2.x
+  * Mac and Windows should support GL 2.x on all devices.
+  * For Linux at least you'll need to install OpenGL driver. Mesa OpenGL may work. X11 dev package also required.
 * premake5(optional. required to build example program)
 * GTK+3(optional. required for nativefiledialog support)
 
