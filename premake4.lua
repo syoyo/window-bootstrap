@@ -4,10 +4,11 @@ newoption {
 }
 
 sources = {
-   "main.cc",
-   "imgui.cpp",
-   "imgui_draw.cpp",
-   "imgui_impl_btgui.cpp",
+   "example.cc",
+   "imgui/imgui.cpp",
+   "imgui/imgui_draw.cpp",
+   "imgui/imgui_impl_btgui.cpp",
+   "imgui/ImGuizmo.cpp",
    }
 
 -- premake4.lua
@@ -33,6 +34,7 @@ solution "UISolution"
       files { sources }
 
       includedirs { "./" }
+      includedirs { "imgui/" }
       includedirs { "nativefiledialog/src/include" }
 
       if os.is("Windows") then

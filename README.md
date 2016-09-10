@@ -42,13 +42,14 @@ Please simply copy following directories/files into your project.
 * nativefiledialog/
 * OpenGLWindow/
 * ThirdPartyLibs/
-* imgui codes
+* imgui/
 
 ## License
 
 `window-bootstrap` is just a composed of existing OSS libraries. `main.cc` is public domain.
 
 * ImGui : The MIT license. Copyright (c) 2014-2015 Omar Cornut and ImGui contributors.
+* ImGuizmo : The MIT license. (`imgui/ImGuizmo.LICENSE`)
 * bt3gui : zlib license. 
 * nativefiledialog : The MIT license. (`nativefiledialog/LICENSE`)
 * glew : BSD/MIT license.
