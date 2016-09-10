@@ -46,7 +46,7 @@ Please simply copy following directories/files into your project.
 
 ## License
 
-`window-bootstrap` is just a composed of existing OSS libraries. `main.cc` is public domain.
+`window-bootstrap` is just a composed of existing OSS libraries. `example.cc` is public domain.
 
 * ImGui : The MIT license. Copyright (c) 2014-2015 Omar Cornut and ImGui contributors.
 * ImGuizmo : The MIT license. (`imgui/ImGuizmo.LICENSE`)
